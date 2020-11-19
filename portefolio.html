@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="portefolio.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+
+	<title>Document</title>
+</head>
+<body>
+<div class="container">
+	<header>
+		<nav class="navbar">
+			<div class="navbar-menu">
+				<ul>
+					<li><a  class="active" href="">Accueil</a></li>
+					<li><a href="#me">présentation</a></li>
+					<li><a href="#compétences">compétences</a></li>
+					<li><a href="#projets">projets</a></li>
+					<li><a href="#contact">contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<section id="accueil">
+			<div class="accueil">
+				<h1> Dann Louzolo</h1>
+				<h2>Integrateur/Developpeur Front end junior</h2>
+			</div>
+			
+		</section>
+	</header>
+	 <section id="me">
+	 	<h2 class="me">Presentation</h2>
+	 	<div  class="flex has-gutter" >
+		<div class="profile-card xm-col-6">
+				<div class="card-header">
+					<div class="pic">
+						<img src="img/luffy.jpg" alt="me">
+					</div>
+					<div class="name">Dann Louzolo</div>
+					<div class="desc">Developpeur web junior</div>
+					<div class="sm">
+						<a href="https://www.linkedin.com/in/dann-louzolo-96268460/"><div class="fab fa-linkedin"></div></a>
+						<a href="#"><div  class="fab fa-github"></div></a>
+					</div>
+					<a href="#contact" class="contact-btn">contactez moi</a>
+				</div>
+			</div>
+			<div class="presentation xm-col-6">
+				<h3>A propos de moi</h3>
+				<p>Passionné par l'informatique depuis le lycée, mon parcours scolaire et professionnel m’a permis de découvrir pas mal de chose que ce soit dans le hardware, software et web. Après pas mal d'expérience dans la QA (assistant qualité). C'est en 2019, suite à une opportunité que j'ai décidé de m'orienter dans le domaine de web. Après avoir acquis des nouvelles compétences coté front-end, je souhaiterai rejoindre une entreprise me permettant de les mettre en services et en acquérir des nouvelles.</p>
+			<div class="sm docs">
+				<a href="docs/LM.pdf"><div class="fa fa-envelope" aria-hidden="true"></div> motivation</a>
+				<a href="docs/Developpeur web.pdf"><div class="fa fa-id-badge" aria-hidden="true"></div> CV</a>
+			
+			</div>
+		</div>
+			
+	</section> 
+	
+	 
+	 	<h2>Mes <br>compétences</h2>
+	 	<section id="competences" class="flex">
+	 	<img src="icon/pc.png" alt="pc">
+	 	<div class="skills">
+		 	<div class="skill">
+	 		 	<div class="skill-name">HTML</div>
+		 		<div class="skill-bar">
+		 			<div class="skill-value per75"></div>
+		 		</div>
+		 	</div>
+			<div class="skill">
+				<div class="skill-name">CSS</div>
+		 		<div class="skill-bar">
+		 			<div class="skill-value per75"></div>
+				</div>
+		 	</div>
+		 	<div class="skill">
+				<div class="skill-name">JS</div>
+		 		<div class="skill-bar">
+		 			<div class="skill-value per40"></div>
+				</div>
+		 	</div>
+		 	<div class="skill">
+		 		<div class="skill-name">PHP</div>
+		 		<div class="skill-bar">
+		 			<div class="skill-value per55"></div>
+		 		</div>
+		 	</div>
+		 	<div class="skill">
+		 		<div class="skill-name">Wordpress</div>
+		 		<div class="skill-bar">
+		 			<div class="skill-value per75"></div>
+		 		</div>
+		 	</div>
+	 	</div>	
+	</section> 
+
+	<section class="projets">
+		<h2>Mes Projets</h2>
+		<div class="flex">
+			<img src="icon/web.png" alt="web">
+		<div  class="presentation">
+			
+			<p>Je suis actuellement à la recherche de projets , n'hesitez pas a me contacter afin de m'en proposer et qui sait peut etre qu'il sera sur cette page !!!</p>
+		</div>
+		</div>
+		
+		
+	</section>
+	<section id="contact">
+		
+		<form method="post" action="mail.php">
+			<h2>Contact</h2>
+			<div class="form_wrapper">
+				<label for="name"></label>
+				<input type="text"  placeholder="Nom">
+				<label for="mail"></label>
+				<input type="email" placeholder="Mail">
+				<label for="message"></label>
+				<textarea name="message" placeholder="Message" id="" cols="40" rows="10"></textarea>
+				<input class="send" type="submit" name="" value="envoyer">
+			</div>
+		</form>
+	</section>
+	
+</div>
+ 	
+
+</body>
+</html>
